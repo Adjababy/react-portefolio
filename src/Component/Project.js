@@ -45,6 +45,18 @@ const Project = () => {
                             </Card.Body>
                             </Card>  
                         </Col>
+                        <Col className="lg-4 mt-4">
+                            <Card className="card projectText  " style={{justifyContent:'center',width:"100%",height:"100%"}}>
+                            <Card.Img variant="top" src={process.env.PUBLIC_URL + "/image/terra-sahel.png"} />
+                            <Card.Body>
+                                <Card.Title><h5 className='text-danger'> Terra Sahel</h5></Card.Title>
+                                    <Card.Text>
+                                    A cultural tourism website for Mali, built with React — featuring live weather data via API, search, filters, sorting and a persistent favorites system.
+                                    </Card.Text>
+                                        <Button variant="primary" href="https://adjababy.github.io/travel-explore/" target='_blank'>Go to the site </Button>
+                            </Card.Body>
+                            </Card>  
+                        </Col>
                     </Row>
                 </Container>
             </section>
