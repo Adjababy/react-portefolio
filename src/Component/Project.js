@@ -41,7 +41,7 @@ const Project = () => {
                                     <Card.Text>
                                     A Blog Website using React
                                     </Card.Text>
-                                        <Button variant="primary" href="https://github.com/Adjababy/a-blog-app/tree/main" target='_blank'>Go to the site </Button>
+                                        <Button variant="primary" href="https://adjababy.github.io/a-blog-app/" target='_blank'>Go to the site </Button>
                             </Card.Body>
                             </Card>  
                         </Col>
